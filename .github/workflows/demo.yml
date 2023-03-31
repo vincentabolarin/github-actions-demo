@@ -1,0 +1,8 @@
+name: Vincent's Workflow
+on: [workflow_dispatch, push]
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1
+      run: echo 'This is the first step.'
