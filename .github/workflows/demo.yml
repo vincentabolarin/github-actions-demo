@@ -17,10 +17,10 @@ jobs:
       - name: Step 2
         run: echo 'This is the second step.'
   
-  job_2:
-    runs-on: ubuntu-latest
-    steps:
-      -uses: actions/checkout@v3
+  # job_2:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     -uses: actions/checkout@v3
 
-      - name: Step 1
-        run: echo 'This is the first step of the second job.'
+  #     - name: Step 1
+  #       run: echo 'This is the first step of the second job.'
